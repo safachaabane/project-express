@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetrines</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="home.css" type="text/css">
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >      
+      <div class="collapse navbar-collapse  d-flex justify-content-around" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/home/home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/service/service.html">our services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/contact.html">Contact</a>
+          </li>
+         
+        </ul>
+        <form class="form-inline my-2 my-lg-0 d-flex flex-nowrap" style="width: 250px; ">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-left: 20px;">Search</button>
+        </form>
+      </div>
+    </nav>
+  
+<section id="lab_video_slider">
+   <div class="container-fluid">
+     <div class="row">
+       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+ 
+       <!-- Link Swiper's CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+ 
+       <!-- Swiper -->
+       <div class="swiper-container">
+         <div class="swiper-wrapper">
+           <div id="slide_one" class="swiper-slide">
+             <!-- VIDEO -->
+             <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="//dl.dropbox.com/s/pjopy0mu4klisat/working-with-espresso.jpg">
+               <source src="//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4" type="video/mp4">
+                 <source src="//dl.dropbox.com/s/g3mo3w34pb8pp2l/working-with-espresso.webm" type="video/webm">
+                   <source src="//dl.dropbox.com/s/p37f0avio0x6bs8/working-with-espresso.ogv" type="video/ogg">
+             </video>
+             <!-- END VIDEO -->
+           </div>
+ 
+           <div id="slide_two" class="swiper-slide">
+   <div id="lab_video_text_overlay">
+     <div class="container">
+       <h2>Welcome in our web site </h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc molestie</p>
+       <a href="#" class="btn btn-default">View Our Work</a>
+       <a href="/service/service.html" class="btn btn-warning">Learn About Us</a>
+ 
+     </div>
+   </div>
+   <!-- end #lab_overlay -->
+ 
+             <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="//dl.dropbox.com/s/ijyaav8qzkdtyt5/lab-coding-screenshot.jpg">
+               
+       <source type="video/mp4" src="//dl.dropbox.com/s/5z4jupv385iboiu/lab-coding.mp4">
+         <source src="//dl.dropbox.com/s/5z4jupv385iboiu/lab-coding.mp4" type="video/mp4">
+           <source src="//dl.dropbox.com/s/79msa1jcni374v8/lab-coding.webm" type="video/webm">
+             <source src="//dl.dropbox.com/s/7bq2tyma5de88bt/lab-coding.ogg" type="video/ogg">
+             </video>
+           
+           </div>
+ 
+           <div id="slide_three" class="swiper-slide">
+              <!-- VIDEO -->
+             <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="//dl.dropbox.com/s/5aeyg9ntj1fs8v1/typing-numbers.jpg">
+               <source src="//dl.dropbox.com/s/xmosdvoleruexky/typing-numbers.mp4" type="video/mp4">
+                 <source src="//dl.dropbox.com/s/13z1t97pcvka88k/typing-numbers.webm" type="video/webm">
+                   <source src="//dl.dropbox.com/s/5pyuc35wnv5khe1/typing-numbers.ogv" type="video/ogg">
+             </video>
+             <!-- END VIDEO -->
+           </div>
+         </div>
+         <!-- Add Pagination -->
+         <div class="swiper-pagination"></div>
+         <!-- Add Arrows -->
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+       </div>
+ 
+       <!-- Swiper JS -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
+ 
+       <!-- Initialize Swiper -->
+       <script>
+         var swiper = new Swiper('.swiper-container', {
+             pagination: '.swiper-pagination',
+             paginationClickable: true,
+             nextButton: '.swiper-button-next',
+             prevButton: '.swiper-button-prev',
+             spaceBetween: 30,
+             autoplay: 5000,
+             autoplayDisableOnInteraction: false
+         });
+       </script>
+     </div>
+     <!-- end .row -->
+   </div>
+   <!-- end .container-->
+   </div>
+   <!-- end #section -->
+   
+</body>
+</html>
